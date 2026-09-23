@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hola Mundo Web</title>
+	<link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<style>
+		.foto-perfil {
+			display: block;
+			width: min(80vw, 280px);
+			height: min(80vw, 280px);
+			margin: 20px auto;
+			object-fit: cover;
+			border-radius: 50%;
+			border: 5px solid #2c3e50;
+		}
+	</style>
+</head>
+<body>
+	<div data-role="page" id="inicio">
+		<div data-role="header" data-theme="b">
+			<h1>Mi presentación</h1>
+		</div>
+
+		<div role="main" class="ui-content">
+			<h2>Bienvenido</h2>
+			<p>Conoce mis dos páginas de presentación.</p>
+			<a href="pagina1.php" class="ui-btn ui-corner-all ui-btn-b">Ir a la página 1</a>
+		</div>
+
+		<div data-role="footer" data-position="fixed">
+			<h4>Aplicación jQuery Mobile</h4>
+		</div>
+	</div>
+</body>
+</html>
